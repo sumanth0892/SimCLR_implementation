@@ -9,7 +9,7 @@ import torchvision.models as models
 # ResNet encoder with projection head for SimCLR
 class SimCLR(nn.Module):
     """
-    The main SimCLR module
+    The main SimCLR module for pre-training
     """
     def __init__(self, feature_dim=128):
         """
