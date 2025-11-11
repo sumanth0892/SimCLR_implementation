@@ -1,5 +1,5 @@
 """
-The main SimCLR module
+The main SimCLR module for data understanding
 """
 import torch
 import torch.nn as nn
