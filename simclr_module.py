@@ -33,6 +33,7 @@ class SimCLR(nn.Module):
         Forward pass
         """
         # Get embeddings from the encoder
+        print(f"The input shape is {x.shape}")
         h = self.encoder(x)
         h = torch.flatten(h, start_dim=1)
         
