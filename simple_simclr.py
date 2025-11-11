@@ -1,4 +1,4 @@
-# augmentation.py
+# Image augmentation module
 import torchvision.transforms as T
 
 def get_simclr_augmentation(img_size=224):
